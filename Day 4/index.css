@@ -1,0 +1,131 @@
+/*
+.container{
+    height: 500px;
+    width: 100%;
+    background: black;
+    padding: 0px;
+    //border: 2px solid green;
+    padding: 50px;
+}
+.box{
+    background: red;
+    width: 50%;
+    height: 100px;
+    margin: 50px;
+}*/
+/*
+div{
+    background-color: blue;
+}
+.box{
+    background-color: yellow;
+    
+}*/
+/* .box{
+    background-color: pink;
+    padding: 50px;
+    border: 20px solid red;
+    margin: 50px;
+} */
+
+/* .container{
+    background-color: wheat;
+    width: 100%;
+    height: 100vh;
+    margin: 50px;
+    position: relative;
+}
+.box{
+     background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+}
+.box-1{
+    background-color: brown;
+    position: relative;
+    z-index:3;
+}
+.box-2{
+    background-color: blue;
+    position: relative;
+    z-index: 3;
+}
+.box-3{
+    background-color: violet;
+}
+.box-4{
+    background-color: darkblue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.box-5{
+    background-color: green;
+}  */
+
+
+.container{
+    background-color: wheat;
+    width: 100%;
+    height: 100vh;
+    margin: 50px;
+    position: relative;
+}
+.box{
+    /* background-color: red; */
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+}
+.box-1{
+    background-color: brown;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    bottom: 400px;
+    right: 500px;
+    z-index: 3;
+
+    
+}
+.box-2{
+    background-color: blue;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    bottom: 700px;
+    right: 400px;
+    z-index: 3;
+    
+}
+.box-3{
+    background-color: violet;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    bottom: 500px;
+    right: 500px;
+    z-index: 2;
+}
+.box-4{
+    background-color: darkblue;
+    position: absolute;
+    top: 600px;
+    left: 400px;
+    bottom: 700px;
+    right: 600px;
+    z-index: 3;
+}
+.box-5{
+    background-color: green;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    bottom: 700px;
+    right: 700px;
+    z-index: 3;
+}
